@@ -12,6 +12,8 @@ import img4 from '../public/img/playground.png'
 import img5 from '../public/img/food.png'
 import UserImg from '../public/img/user.png'
 import StudentCard from './(Components)/StudentCard/StudentCard'
+import Footer from './(Components)/Footer/Footer'
+import BrighterFuture from './(Components)/BrighterFuture/BrighterFuture'
 
 
 
@@ -90,6 +92,10 @@ export default function Home() {
           <StudentCard scr={UserImg} classTitle="fa fa-star-half-alt" />
         </div>
       </section>
+
+      <BrighterFuture/>
+
+      <Footer/>
 
     </>
   )
