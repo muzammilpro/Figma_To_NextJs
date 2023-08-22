@@ -1,13 +1,12 @@
 
 import Image from 'next/image'; 
-import Img from '../../../public/img/Campus1.png';
 
-export default function VirtualImages() {
+export default function VirtualImages(props) {
     return (
         <div className="campus-col">
-            <Image src={Img} alt="#" />
+            <Image src={props.scr} alt="#" />
             <div className="layer">
-                <h3>DELHI</h3>
+                <h3>{props.heading}</h3>
             </div>
         </div>
     );
