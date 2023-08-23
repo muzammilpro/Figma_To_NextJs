@@ -7,5 +7,7 @@ export default function BrighterFuture() {
             <h1>GET READY FOR A BRIGHT FUTURE</h1>
             <Button text="CONTACT US"/>
         </section>
+
+
     )
 }

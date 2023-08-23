@@ -93,9 +93,9 @@ export default function Home() {
         </div>
       </section>
 
-      <BrighterFuture/>
+      <BrighterFuture />
 
-      <Footer/>
+      <Footer />
 
     </>
   )

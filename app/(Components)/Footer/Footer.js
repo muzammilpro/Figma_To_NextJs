@@ -16,7 +16,7 @@ export default function Footer() {
             <i class="fab fa-linkedin"></i>
         </div>
         <p>Made by   <a href="index.html">Muzammil Husnain</a></p>
-        <p>Copyright © 2021 <a href="index.html">Xplore Skill</a>. All Rights Reserved</p>
+        <p>Copyright © 2023 <a href="index.html">Xplore Skill</a>. All Rights Reserved</p>
     </section>
   )
 }
