@@ -1,7 +1,7 @@
 import './globals.css'
 import '../node_modules/font-awesome/css/font-awesome.min.css'
 import { Inter } from 'next/font/google'
-import React from 'react'
+
 
 const inter = Inter({ subsets: ['latin'] })
 

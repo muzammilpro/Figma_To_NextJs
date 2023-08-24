@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
@@ -10,11 +11,11 @@ export default function Navbar() {
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="course.html">Course</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/Course">Course</Link></li>
+                        <li><Link href="/Blog">Blog</Link></li>
+                        <li><Link href="/About">About</Link></li>
+                        <li><Link href="/Contact">Contact</Link></li>
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
